@@ -13,30 +13,54 @@ window.addEventListener("load", function () {
  * loads the dokuwiki content
  */
 function loadContent() {
+
     const elements = document.getElementsByClassName("embededWiki");
     for (let i = 0; i < elements.length; i++) {
         let element = elements[i];
-        if (element.hasAttribute("data-url")) {
-            let xmlhttp = new XMLHttpRequest();
-            let wikiURL = element.getAttribute("data-url");
-            xmlhttp.open("GET", wikiURL);
+        let xmlhttp = new XMLHttpRequest();
+        let wikiURL = addExport(element.getAttribute("href"));
+        xmlhttp.open("GET", wikiURL);
 
-            xmlhttp.addEventListener("load" , function() {
-                if (xmlhttp.status >= 200 && xmlhttp.status < 300) {
-                    element.innerHTML = xmlhttp.responseText;
-                    makeTarget(element);
-                } else {
-                    // TODO error handling
-                }
-            });
-
-            xmlhttp.addEventListener("error", function() {
+        xmlhttp.addEventListener("load", function () {
+            if (xmlhttp.status >= 200 && xmlhttp.status < 300) {
+                makeContentDiv(element, xmlhttp.responseText);
+            } else {
                 // TODO error handling
-            });
+            }
+        });
 
-            xmlhttp.send();
-        }
+        xmlhttp.addEventListener("error", function () {
+            // TODO error handling
+        });
+
+        xmlhttp.send();
     }
+}
+
+/**
+ * adds the "do=export_html" parameter to the href
+ * @param href  the link to the resource
+ * @returns {string}
+ */
+function addExport(href) {
+    const parts = href.split("?",2);
+    const urlParams = new URLSearchParams(parts[1]);
+    if (!urlParams.has("do")) {
+        urlParams.set("do", "export_xhtml");
+    }
+    return parts[0] + "?" + urlParams.toString();
+}
+
+/**
+ * replaces the anchor with a div showing the content of the wiki
+ * @param anchor  the anchor element
+ * @param content the wiki-content
+ */
+function makeContentDiv(anchor, content) {
+    const div = document.createElement("div");
+    div.innerHTML = content;
+    makeTarget(div);
+    anchor.parentNode.replaceChild(div, anchor);
 }
 
 /**
