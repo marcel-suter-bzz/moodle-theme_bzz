@@ -17,9 +17,10 @@ function loadContent() {
     const elements = document.getElementsByClassName("embededWiki");
     for (let i = 0; i < elements.length; i++) {
         let element = elements[i];
+        let url = element.getAttribute("href");
         let xmlhttp = new XMLHttpRequest();
-        let wikiURL = addFormat(element.getAttribute("href"), xhtml);
-        xmlhttp.open("GET", wikiURL);
+
+        xmlhttp.open("GET",  addFormat(url, "xhtmlbody"));
 
         xmlhttp.addEventListener("load", function () {
             if (xmlhttp.status >= 200 && xmlhttp.status < 300) {
@@ -27,6 +28,7 @@ function loadContent() {
             } else {
                 // TODO error handling
             }
+            makeLink(element, url);
         });
 
         xmlhttp.addEventListener("error", function () {
@@ -47,7 +49,7 @@ function addFormat(href, format) {
     const parts = href.split("?",2);
     const urlParams = new URLSearchParams(parts[1]);
     if (!urlParams.has("do")) {
-        urlParams.set("do", "export_" & format);
+        urlParams.set("do", "export_" + format);
     }
     return parts[0] + "?" + urlParams.toString();
 }
@@ -62,6 +64,17 @@ function makeContentDiv(anchor, content) {
     div.innerHTML = content;
     makeTarget(div);
     anchor.parentNode.insertBefore(div, anchor);
+}
+
+/**
+ * make a link to the PDF export of the content
+ * @param anchor  the anchor-element
+ * @param href    the content URL
+ */
+function makeLink(anchor, href) {
+    anchor.href = addFormat(href, "pdf");
+    anchor.html = "_blank";
+    anchor.innerHTML += " (PDF)";
 }
 
 /**

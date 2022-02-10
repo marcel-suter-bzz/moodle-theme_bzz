@@ -29,7 +29,7 @@ $THEME->sheets = [];
 
 $THEME->editor_sheets = [];
 
-$THEME->parents = ["lamda"];
+$THEME->parents = ["boost"];
 
 $THEME->enable_dock = false;
 
