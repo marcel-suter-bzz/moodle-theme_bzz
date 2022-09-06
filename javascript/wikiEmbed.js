@@ -18,6 +18,7 @@ function loadContent() {
     for (let i = 0; i < elements.length; i++) {
         let element = elements[i];
         let url = element.getAttribute("href");
+        makeLink(element, url);
         let xmlhttp = new XMLHttpRequest();
 
         xmlhttp.open("GET",  addFormat(url, "xhtmlbody"));
@@ -28,7 +29,7 @@ function loadContent() {
             } else {
                 // TODO error handling
             }
-            makeLink(element, url);
+
         });
 
         xmlhttp.addEventListener("error", function () {
@@ -61,9 +62,10 @@ function addFormat(href, format) {
  */
 function makeContentDiv(anchor, content) {
     const div = document.createElement("div");
+    div.className = "dokuwiki";
     div.innerHTML = content;
     makeTarget(div);
-    anchor.parentNode.insertBefore(div, anchor);
+    anchor.after(div);
 }
 
 /**
@@ -73,8 +75,11 @@ function makeContentDiv(anchor, content) {
  */
 function makeLink(anchor, href) {
     anchor.href = addFormat(href, "pdf");
-    anchor.html = "_blank";
-    anchor.innerHTML += " (PDF)";
+    anchor.target = "_blank";
+    anchor.setAttribute("title", "Seite als PDF öffnen")
+    anchor.innerHTML =
+        "<img src='https://moodle.bzz.ch/theme/image.php/bzz/core/1644475145/f/pdf-24' " +
+        "alt='Seite als PDF öffnen'/>";
 }
 
 /**
