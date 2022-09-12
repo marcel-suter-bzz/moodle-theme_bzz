@@ -23,14 +23,14 @@
  */
 defined("MOODLE_INTERNAL") || die();
 
-$plugin->version = 2022080202;
+$plugin->version = 2022091201;
 
 $plugin->requires = 2021051700;
 
 $plugin->component = 'theme_bzz';
 
 $plugin->dependencies = [
-    'theme_boost' => 2022041900
+    'theme_boost' => 2021051700
 ];
 
 $plugin->maturity = MATURITY_BETA;

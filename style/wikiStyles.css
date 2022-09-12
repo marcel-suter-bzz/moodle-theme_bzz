@@ -39,7 +39,13 @@
 .dokuwiki .wrap__dark.wrap_download { background-color: #345717; }
 .dokuwiki div.wrap_download { background-image: url(https://it.bzz.ch/wikiV2/lib/plugins/wrap/images/note/48/download.png); }
 .dokuwiki span.wrap_download { background-image: url(https://it.bzz.ch/wikiV2/lib/plugins/wrap/images/note/16/download.png); }
-.dokuwiki div.wrap_info, .dokuwiki div.wrap_important, .dokuwiki div.wrap_alert, .dokuwiki div.wrap_tip, .dokuwiki div.wrap_help, .dokuwiki div.wrap_todo, .dokuwiki div.wrap_download {
+.dokuwiki div.wrap_info,
+.dokuwiki div.wrap_important,
+.dokuwiki div.wrap_alert,
+.dokuwiki div.wrap_tip,
+.dokuwiki div.wrap_help,
+.dokuwiki div.wrap_todo,
+.dokuwiki div.wrap_download {
     padding: 1em 1em 0.5em 70px;
     margin-bottom: 1.5em;
     min-height: 68px;
@@ -48,6 +54,25 @@
     color: inherit;
     overflow: hidden;
 }
+.dokuwiki .wrap_box {
+    background: #eee;
+    color: #333;
+}
+
+.dokuwiki div.wrap_box,
+.dokuwiki div.wrap_danger,
+.dokuwiki div.wrap_warning,
+.dokuwiki div.wrap_caution,
+.dokuwiki div.wrap_notice,
+.dokuwiki div.wrap_safety {
+    padding: 1em 1em .5em;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+}
+.dokuwiki .wrap_round {
+    border-radius: 1.4em;
+}
+
 .dokuwiki .wrap_center {
     display: block;
     margin-left: auto;
