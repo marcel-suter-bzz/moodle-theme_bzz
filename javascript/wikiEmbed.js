@@ -89,6 +89,6 @@ function makeLink(anchor, href) {
 function makeTarget(element) {
     const links = element.getElementsByTagName("A");
     for (let i = 0; i < links.length; i++) {
-        links[i].html = "_blank";
+        links[i].setAttribute("target", "_blank");
     }
 }
