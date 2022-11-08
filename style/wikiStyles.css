@@ -105,190 +105,190 @@
 
 .code {background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px;}
 /* java overrides */
-.code .java .co2 { color: #a1a100; }
-.code .java .kw3 { color: #aaaadd; font-weight: bold; }
+pre .co2 { color: #a1a100; }
+pre .kw3 { color: #aaaadd; font-weight: bold; }
 
 /* java5 overrides */
-.code .java5 .kw10 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw100 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw101 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw102 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw103 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw104 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw105 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw106 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw107 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw108 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw109 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw11 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw110 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw111 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw112 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw113 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw114 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw115 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw116 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw117 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw118 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw119 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw12 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw120 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw121 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw122 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw123 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw124 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw125 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw126 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw127 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw128 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw129 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw13 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw130 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw131 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw132 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw133 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw134 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw135 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw136 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw137 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw138 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw139 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw14 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw140 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw141 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw142 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw143 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw144 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw145 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw146 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw147 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw148 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw149 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw15 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw150 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw151 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw152 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw153 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw154 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw155 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw156 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw157 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw158 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw159 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw16 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw160 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw161 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw162 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw163 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw164 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw165 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw166 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw17 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw18 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw19 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw20 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw21 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw22 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw23 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw24 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw25 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw26 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw27 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw28 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw29 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw3 { color: #993333; }
-.code .java5 .kw30 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw31 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw32 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw33 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw34 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw35 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw36 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw37 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw38 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw39 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw4 { color: #b13366; }
-.code .java5 .kw40 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw41 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw42 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw43 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw44 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw45 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw46 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw47 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw48 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw49 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw5 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw50 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw51 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw52 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw53 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw54 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw55 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw56 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw57 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw58 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw59 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw6 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw60 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw61 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw62 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw63 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw64 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw65 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw66 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw67 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw68 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw69 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw7 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw70 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw71 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw72 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw73 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw74 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw75 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw76 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw77 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw78 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw79 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw8 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw80 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw81 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw82 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw83 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw84 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw85 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw86 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw87 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw88 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw89 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw9 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw90 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw91 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw92 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw93 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw94 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw95 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw96 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw97 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw98 { color: #aaaadd; font-weight: bold; }
-.code .java5 .kw99 { color: #aaaadd; font-weight: bold; }
+pre .kw10 { color: #aaaadd; font-weight: bold; }
+pre .kw100 { color: #aaaadd; font-weight: bold; }
+pre .kw101 { color: #aaaadd; font-weight: bold; }
+pre .kw102 { color: #aaaadd; font-weight: bold; }
+pre .kw103 { color: #aaaadd; font-weight: bold; }
+pre .kw104 { color: #aaaadd; font-weight: bold; }
+pre .kw105 { color: #aaaadd; font-weight: bold; }
+pre .kw106 { color: #aaaadd; font-weight: bold; }
+pre .kw107 { color: #aaaadd; font-weight: bold; }
+pre .kw108 { color: #aaaadd; font-weight: bold; }
+pre .kw109 { color: #aaaadd; font-weight: bold; }
+pre .kw11 { color: #aaaadd; font-weight: bold; }
+pre .kw110 { color: #aaaadd; font-weight: bold; }
+pre .kw111 { color: #aaaadd; font-weight: bold; }
+pre .kw112 { color: #aaaadd; font-weight: bold; }
+pre .kw113 { color: #aaaadd; font-weight: bold; }
+pre .kw114 { color: #aaaadd; font-weight: bold; }
+pre .kw115 { color: #aaaadd; font-weight: bold; }
+pre .kw116 { color: #aaaadd; font-weight: bold; }
+pre .kw117 { color: #aaaadd; font-weight: bold; }
+pre .kw118 { color: #aaaadd; font-weight: bold; }
+pre .kw119 { color: #aaaadd; font-weight: bold; }
+pre .kw12 { color: #aaaadd; font-weight: bold; }
+pre .kw120 { color: #aaaadd; font-weight: bold; }
+pre .kw121 { color: #aaaadd; font-weight: bold; }
+pre .kw122 { color: #aaaadd; font-weight: bold; }
+pre .kw123 { color: #aaaadd; font-weight: bold; }
+pre .kw124 { color: #aaaadd; font-weight: bold; }
+pre .kw125 { color: #aaaadd; font-weight: bold; }
+pre .kw126 { color: #aaaadd; font-weight: bold; }
+pre .kw127 { color: #aaaadd; font-weight: bold; }
+pre .kw128 { color: #aaaadd; font-weight: bold; }
+pre .kw129 { color: #aaaadd; font-weight: bold; }
+pre .kw13 { color: #aaaadd; font-weight: bold; }
+pre .kw130 { color: #aaaadd; font-weight: bold; }
+pre .kw131 { color: #aaaadd; font-weight: bold; }
+pre .kw132 { color: #aaaadd; font-weight: bold; }
+pre .kw133 { color: #aaaadd; font-weight: bold; }
+pre .kw134 { color: #aaaadd; font-weight: bold; }
+pre .kw135 { color: #aaaadd; font-weight: bold; }
+pre .kw136 { color: #aaaadd; font-weight: bold; }
+pre .kw137 { color: #aaaadd; font-weight: bold; }
+pre .kw138 { color: #aaaadd; font-weight: bold; }
+pre .kw139 { color: #aaaadd; font-weight: bold; }
+pre .kw14 { color: #aaaadd; font-weight: bold; }
+pre .kw140 { color: #aaaadd; font-weight: bold; }
+pre .kw141 { color: #aaaadd; font-weight: bold; }
+pre .kw142 { color: #aaaadd; font-weight: bold; }
+pre .kw143 { color: #aaaadd; font-weight: bold; }
+pre .kw144 { color: #aaaadd; font-weight: bold; }
+pre .kw145 { color: #aaaadd; font-weight: bold; }
+pre .kw146 { color: #aaaadd; font-weight: bold; }
+pre .kw147 { color: #aaaadd; font-weight: bold; }
+pre .kw148 { color: #aaaadd; font-weight: bold; }
+pre .kw149 { color: #aaaadd; font-weight: bold; }
+pre .kw15 { color: #aaaadd; font-weight: bold; }
+pre .kw150 { color: #aaaadd; font-weight: bold; }
+pre .kw151 { color: #aaaadd; font-weight: bold; }
+pre .kw152 { color: #aaaadd; font-weight: bold; }
+pre .kw153 { color: #aaaadd; font-weight: bold; }
+pre .kw154 { color: #aaaadd; font-weight: bold; }
+pre .kw155 { color: #aaaadd; font-weight: bold; }
+pre .kw156 { color: #aaaadd; font-weight: bold; }
+pre .kw157 { color: #aaaadd; font-weight: bold; }
+pre .kw158 { color: #aaaadd; font-weight: bold; }
+pre .kw159 { color: #aaaadd; font-weight: bold; }
+pre .kw16 { color: #aaaadd; font-weight: bold; }
+pre .kw160 { color: #aaaadd; font-weight: bold; }
+pre .kw161 { color: #aaaadd; font-weight: bold; }
+pre .kw162 { color: #aaaadd; font-weight: bold; }
+pre .kw163 { color: #aaaadd; font-weight: bold; }
+pre .kw164 { color: #aaaadd; font-weight: bold; }
+pre .kw165 { color: #aaaadd; font-weight: bold; }
+pre .kw166 { color: #aaaadd; font-weight: bold; }
+pre .kw17 { color: #aaaadd; font-weight: bold; }
+pre .kw18 { color: #aaaadd; font-weight: bold; }
+pre .kw19 { color: #aaaadd; font-weight: bold; }
+pre .kw20 { color: #aaaadd; font-weight: bold; }
+pre .kw21 { color: #aaaadd; font-weight: bold; }
+pre .kw22 { color: #aaaadd; font-weight: bold; }
+pre .kw23 { color: #aaaadd; font-weight: bold; }
+pre .kw24 { color: #aaaadd; font-weight: bold; }
+pre .kw25 { color: #aaaadd; font-weight: bold; }
+pre .kw26 { color: #aaaadd; font-weight: bold; }
+pre .kw27 { color: #aaaadd; font-weight: bold; }
+pre .kw28 { color: #aaaadd; font-weight: bold; }
+pre .kw29 { color: #aaaadd; font-weight: bold; }
+pre .kw3 { color: #993333; }
+pre .kw30 { color: #aaaadd; font-weight: bold; }
+pre .kw31 { color: #aaaadd; font-weight: bold; }
+pre .kw32 { color: #aaaadd; font-weight: bold; }
+pre .kw33 { color: #aaaadd; font-weight: bold; }
+pre .kw34 { color: #aaaadd; font-weight: bold; }
+pre .kw35 { color: #aaaadd; font-weight: bold; }
+pre .kw36 { color: #aaaadd; font-weight: bold; }
+pre .kw37 { color: #aaaadd; font-weight: bold; }
+pre .kw38 { color: #aaaadd; font-weight: bold; }
+pre .kw39 { color: #aaaadd; font-weight: bold; }
+pre .kw4 { color: #b13366; }
+pre .kw40 { color: #aaaadd; font-weight: bold; }
+pre .kw41 { color: #aaaadd; font-weight: bold; }
+pre .kw42 { color: #aaaadd; font-weight: bold; }
+pre .kw43 { color: #aaaadd; font-weight: bold; }
+pre .kw44 { color: #aaaadd; font-weight: bold; }
+pre .kw45 { color: #aaaadd; font-weight: bold; }
+pre .kw46 { color: #aaaadd; font-weight: bold; }
+pre .kw47 { color: #aaaadd; font-weight: bold; }
+pre .kw48 { color: #aaaadd; font-weight: bold; }
+pre .kw49 { color: #aaaadd; font-weight: bold; }
+pre .kw5 { color: #aaaadd; font-weight: bold; }
+pre .kw50 { color: #aaaadd; font-weight: bold; }
+pre .kw51 { color: #aaaadd; font-weight: bold; }
+pre .kw52 { color: #aaaadd; font-weight: bold; }
+pre .kw53 { color: #aaaadd; font-weight: bold; }
+pre .kw54 { color: #aaaadd; font-weight: bold; }
+pre .kw55 { color: #aaaadd; font-weight: bold; }
+pre .kw56 { color: #aaaadd; font-weight: bold; }
+pre .kw57 { color: #aaaadd; font-weight: bold; }
+pre .kw58 { color: #aaaadd; font-weight: bold; }
+pre .kw59 { color: #aaaadd; font-weight: bold; }
+pre .kw6 { color: #aaaadd; font-weight: bold; }
+pre .kw60 { color: #aaaadd; font-weight: bold; }
+pre .kw61 { color: #aaaadd; font-weight: bold; }
+pre .kw62 { color: #aaaadd; font-weight: bold; }
+pre .kw63 { color: #aaaadd; font-weight: bold; }
+pre .kw64 { color: #aaaadd; font-weight: bold; }
+pre .kw65 { color: #aaaadd; font-weight: bold; }
+pre .kw66 { color: #aaaadd; font-weight: bold; }
+pre .kw67 { color: #aaaadd; font-weight: bold; }
+pre .kw68 { color: #aaaadd; font-weight: bold; }
+pre .kw69 { color: #aaaadd; font-weight: bold; }
+pre .kw7 { color: #aaaadd; font-weight: bold; }
+pre .kw70 { color: #aaaadd; font-weight: bold; }
+pre .kw71 { color: #aaaadd; font-weight: bold; }
+pre .kw72 { color: #aaaadd; font-weight: bold; }
+pre .kw73 { color: #aaaadd; font-weight: bold; }
+pre .kw74 { color: #aaaadd; font-weight: bold; }
+pre .kw75 { color: #aaaadd; font-weight: bold; }
+pre .kw76 { color: #aaaadd; font-weight: bold; }
+pre .kw77 { color: #aaaadd; font-weight: bold; }
+pre .kw78 { color: #aaaadd; font-weight: bold; }
+pre .kw79 { color: #aaaadd; font-weight: bold; }
+pre .kw8 { color: #aaaadd; font-weight: bold; }
+pre .kw80 { color: #aaaadd; font-weight: bold; }
+pre .kw81 { color: #aaaadd; font-weight: bold; }
+pre .kw82 { color: #aaaadd; font-weight: bold; }
+pre .kw83 { color: #aaaadd; font-weight: bold; }
+pre .kw84 { color: #aaaadd; font-weight: bold; }
+pre .kw85 { color: #aaaadd; font-weight: bold; }
+pre .kw86 { color: #aaaadd; font-weight: bold; }
+pre .kw87 { color: #aaaadd; font-weight: bold; }
+pre .kw88 { color: #aaaadd; font-weight: bold; }
+pre .kw89 { color: #aaaadd; font-weight: bold; }
+pre .kw9 { color: #aaaadd; font-weight: bold; }
+pre .kw90 { color: #aaaadd; font-weight: bold; }
+pre .kw91 { color: #aaaadd; font-weight: bold; }
+pre .kw92 { color: #aaaadd; font-weight: bold; }
+pre .kw93 { color: #aaaadd; font-weight: bold; }
+pre .kw94 { color: #aaaadd; font-weight: bold; }
+pre .kw95 { color: #aaaadd; font-weight: bold; }
+pre .kw96 { color: #aaaadd; font-weight: bold; }
+pre .kw97 { color: #aaaadd; font-weight: bold; }
+pre .kw98 { color: #aaaadd; font-weight: bold; }
+pre .kw99 { color: #aaaadd; font-weight: bold; }
 
 /* javascript overrides */
-.code .javascript .co1 { color: #009900; font-style: italic; }
-.code .javascript .coMULTI { color: #009900; font-style: italic; }
-.code .javascript .kw1 { color: #000066; font-weight: bold; }
-.code .javascript .kw2 { color: #003366; font-weight: bold; }
-.code .javascript .nu0 { color: #CC0000; }
-.code .javascript .re0 { color: #0066FF; }
-.code .javascript .st0 { color: #3366CC; }
+pre .co1 { color: #009900; font-style: italic; }
+pre .coMULTI { color: #009900; font-style: italic; }
+pre .kw1 { color: #000066; font-weight: bold; }
+pre .kw2 { color: #003366; font-weight: bold; }
+pre .nu0 { color: #CC0000; }
+pre .re0 { color: #0066FF; }
+pre .st0 { color: #3366CC; }
 
 /* python overrides */
-.code .python .br0 { color: black; }
-.code .python .kw1 { color: #ff7700;font-weight:bold; }
-.code .python .kw2 { color: #008000; }
-.code .python .kw3 { color: #dc143c; }
-.code .python .kw4 { color: #0000cd; }
-.code .python .me1 { color: black; }
-.code .python .nu0 { color: #ff4500; }
-.code .python .st0 { color: #483d8b; }
+pre .br0 { color: black; }
+pre .kw1 { color: #ff7700;font-weight:bold; }
+pre .kw2 { color: #008000; }
+pre .kw3 { color: #dc143c; }
+pre .kw4 { color: #0000cd; }
+pre .me1 { color: black; }
+pre .nu0 { color: #ff4500; }
+pre .st0 { color: #483d8b; }
