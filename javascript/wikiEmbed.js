@@ -3,9 +3,11 @@
  * @author Marcel Suter (Ghwalin)
  */
 window.addEventListener("load", function () {
+    const path = window.location.pathname;
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    if (!urlParams.has("update"))
+    if (!urlParams.has("update") &&
+        path !== "/mod/lesson/editpage.php")
         loadContent();
 });
 

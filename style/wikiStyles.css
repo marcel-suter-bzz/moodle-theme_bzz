@@ -99,6 +99,16 @@
     display: none;
 }
 
+.dokuwiki a.urlextern, .dokuwiki a.windows, .dokuwiki a.mail, .dokuwiki a.mediafile, .dokuwiki a.interwiki {
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding: 0 0 0 18px;
+}
+
+a.iw_wp, a.iw_wpde, a.iw_wpes, a.iw_wpfr, a.iw_wpjp, a.iw_wpmeta, a.iw_wppl {
+    background-image: url('https://it.bzz.ch/wikiV2/lib/tpl/bootstrap3/iconify.php?icon=mdi-wikipedia.svg');
+}
+
 .remark {
     white-space: pre-wrap;
 }
