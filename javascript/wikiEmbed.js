@@ -80,8 +80,8 @@ function makeLink(anchor, href) {
     anchor.target = "_blank";
     anchor.setAttribute("title", "Seite als PDF öffnen")
     anchor.innerHTML =
-        "<img src='https://moodle.bzz.ch/theme/image.php/bzz/core/1644475145/f/pdf-24' " +
-        "alt='Seite als PDF öffnen'/>";
+        "<img src='https://wiki.bzz.ch/_media/assets/pdf_icon.svg' " +
+        "width='40px' alt='Seite als PDF öffnen'/>";
 }
 
 /**
